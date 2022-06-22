@@ -32,6 +32,9 @@
                   <CellContents>
                     <Textbox Name="TextBox1">
                       <CanGrow>true</CanGrow>
+                      <UserSort>
+                        <SortExpression>=Fields!ProductNumber.Value</SortExpression>
+                      </UserSort>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
@@ -212,6 +215,9 @@
                 <TablixCell>
                   <CellContents>
                     <Textbox Name="TextBox12">
+                      <UserSort>
+                        <SortExpression>=Fields!StandardCost.Value</SortExpression>
+                      </UserSort>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
